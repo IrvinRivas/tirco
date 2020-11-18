@@ -1,0 +1,168 @@
+body{
+    font-family: “Helvetica Neue”, Helvetica, Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+input,
+button{
+    outline: none;
+}
+
+.container{
+    margin: 0 auto;
+    width: 900px;
+}
+a{
+    text-decoration: none;
+    
+}
+
+a:hover{
+    color: rgb(228,108,10);
+}
+
+.btn{
+    /* border: 1px solid #c2c2c2; */
+    border-radius: 5px;
+    color: white;
+    height: 30px;
+    font-family: “Helvetica Neue”, Helvetica, Arial, sans-serif;
+}
+
+.btn:hover{
+    color:#C1DFF0;
+}
+
+.buttons-container{
+    display:flex;
+}
+td{
+    padding: 20px;
+}
+
+.btn:hover{
+    color:#C1DFF0;
+}
+td{
+    padding: 20px;
+}
+.btn-primary{
+    background-color:#266DD3;
+    border:1px solid #c2c2c2;
+    border-radius:40px;
+}
+.btn-secundary{
+    background-color: #BF1A2F;
+    border:1px solid #c2c2c2;
+    border-radius:40px;
+}
+
+.btn-ch{
+    width:100px;
+}
+.btn-g{
+    width:150px;
+}
+
+/* header------------------------- */
+header{
+    align-items: center;
+    background-color:rgb(13,8,110);
+    color: white;
+    display: flex;
+    height: 80px;
+    justify-content: space-between;
+    width: 100%;
+    position:-webkit-sticky;
+    
+}
+header ul{
+    display: flex;
+    list-style: none;
+}
+header ul li{
+    margin-right: 30px;
+}
+
+header ul a li{
+    color: white;
+}
+header ul a li:hover{
+    color: rgb(228,108,10);
+}
+.header-img{
+    height: 60px;
+    width: 60px;
+}
+
+/* hero----------------- */
+.hero{
+    background-image: url('../images/irvin-tirco.jpg');
+    background-color:rgb(13,8,110);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    opacity: 0.8;
+    color: white;
+    height: 100vh;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    
+}
+/* marcas-------------------- */
+.marcas-img__container{
+    display:flex;
+    flex-wrap: wrap;
+}
+.marcas-img{
+    height: 80px;
+    width: 30%;
+}
+
+/* form----------------------- */
+
+.form-container{
+    align-content:center;
+    border:1px solid #c2c2c2;
+    box-shadow:2px 2px 2px #8888;
+    display:flex;
+    flex-wrap:wrap;
+    height:350px;
+    justify-content:center;
+    margin:0 auto;
+    margin-top:50px;
+    margin-bottom:50px;
+    padding:20px;
+    text-align:center;
+    width:400px;
+}
+
+.form-item{
+    margin-top:40px;
+    margin-bottom:20px;
+}
+
+.form-input{
+    border:1px solid #c2c2c2;
+    border-radius: 20px;
+    height:20px;
+    margin-top:20px;
+    padding-left:10px;
+    width:300px;
+}
+
+.btn-search{
+    background-color: rgb(228,108,10);
+    border-radius: 10px;
+    color: white;
+    margin-right: 20px;
+    width: 100px;
+}
+
+/* product----------------------- */
+.product-row{
+    padding: 10px
+}
